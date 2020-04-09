@@ -1,0 +1,478 @@
+/* FONTS */
+
+@font-face {
+    font-family: OpenSans;
+    src: url(fonts/OpenSans-Regular.ttf)
+}
+
+@font-face {
+    font-family: OpenSansBold;
+    src: url(fonts/OpenSans-Bold.ttf)
+}
+
+@font-face {
+    font-family: SourceSansProBlack;
+    src: url(fonts/SourceSansPro-Black.otf);
+}
+
+@font-face {
+    font-family: SourceSansProLight;
+    src: url(fonts/SourceSansPro-Light.otf);
+}
+
+@font-face {
+    font-family: RobotoLight;
+    src: url(fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: BigJohn;
+    src: url(fonts/BIG\ JOHN.otf);
+}
+
+@font-face {
+    font-family: SlimJoe;
+    src: url(fonts/Slim\ Joe.otf);
+}
+
+
+/*MAIN HEADER*/
+
+header {
+    background-image: url(img/background_header.png);
+}
+
+.header__nav a {
+    margin: 0;
+    padding: 7px 20px;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: OpenSans;
+    font-size: 16px;
+}
+
+.header__nav a:hover {
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 25px;
+    color: white;
+    font-size: 16px;
+}
+
+.header__row1 {
+    padding-top: 45px;
+    padding-bottom: 140px;
+}
+
+.header__text h1 {
+    font-family: SlimJoe;
+    color: #ffffff;
+    font-size: 35px;
+    letter-spacing: 0.2em;
+    padding-bottom: 40px;
+}
+
+.header__text p {
+    font-family: OpenSans;
+    color: #ffffff;
+    font-size: 16px;
+    padding-bottom: 300px;
+    letter-spacing: 0.05em;
+}
+
+
+/*READMORE SECTION */
+
+.readmore__text h4 {
+    padding-top: 110px;
+    font-family: SourceSansProLight;
+    color: #333b46;
+    font-size: 20px;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+
+.readmore__text p {
+    font-family: OpenSans;
+    color: #81868e;
+    font-size: 14px;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    letter-spacing: 0.05em;
+}
+
+.readmore__text button {
+    text-decoration: none;
+    border: 1px solid #333b46;
+    border-radius: 25px;
+    padding: 5px 25px;
+    background-color: #fff;
+    text-transform: capitalize;
+}
+
+.readmore__text button:hover {
+    background-color: #f7f7f7;
+}
+
+.readmore__img img {
+    padding-top: 75px;
+    padding-bottom: 57px;
+}
+
+
+/*DETAILS SECTION */
+
+.details {
+    background-color: #f3f3f3;
+}
+
+.details__centered h4 {
+    margin: 0;
+    padding-top: 80px;
+    font-family: SourceSansProLight;
+    color: #333b46;
+    font-size: 20px;
+    padding-bottom: 40px;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+
+.details__centered p {
+    font-family: OpenSans;
+    color: #81868e;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    padding-bottom: 50px;
+}
+
+.details__img1 {
+    background-image: url(img/icon_details1.png);
+    display: block;
+    width: 53px;
+    height: 53px;
+    margin: 0;
+    background-repeat: no-repeat;
+    margin-bottom: 60px;
+}
+
+.details__img1:hover {
+    background-position: 0 -53px;
+}
+
+.details__img2 {
+    background-image: url(img/icon_details2.png);
+    display: block;
+    width: 53px;
+    height: 53px;
+    margin: 0;
+    background-repeat: no-repeat;
+    margin-bottom: 60px;
+    margin-left: 27px;
+    margin-right: 27px;
+}
+
+.details__img2:hover {
+    background-position: 0 -53px;
+}
+
+.details__img3 {
+    background-image: url(img/icon_details3.png);
+    display: block;
+    width: 53px;
+    height: 53px;
+    margin: 0;
+    background-repeat: no-repeat;
+    margin-bottom: 60px;
+}
+
+.details__img3:hover {
+    background-position: 0 -53px;
+}
+
+.details__column1 h5 {
+    font-family: OpenSans;
+    color: #464646;
+    text-transform: capitalize;
+    font-size: 20px;
+    padding-bottom: 40px;
+    letter-spacing: 0.04em;
+}
+
+.details__column1 p {
+    font-family: OpenSans;
+    color: #81868e;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+}
+
+.details__column2 p {
+    font-family: OpenSans;
+    color: #81868e;
+    font-size: 14px;
+    padding-top: 70px;
+    padding-bottom: 100px;
+    letter-spacing: 0.05em;
+}
+
+
+/*FEATURED BLOCK*/
+
+.featured__text h4 {
+    margin: 0;
+    padding-top: 80px;
+    text-transform: uppercase;
+    font-family: SourceSansProLight;
+    color: #333b46;
+    font-size: 20px;
+    letter-spacing: 0.2em;
+    padding-bottom: 40px;
+}
+
+.featured__text p {
+    font-family: OpenSans;
+    color: #81868e;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    padding-bottom: 345px;
+}
+
+.featured__text {
+    background-image: url(img/featured_works.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 235px;
+}
+
+.featured__text2 p {
+    font-family: OpenSans;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    margin: 0;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    padding-left: 70px;
+}
+
+.featured__text2 button {
+    text-decoration: none;
+    background-color: transparent;
+    font-family: OpenSans;
+    font-size: 16px;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 25px;
+    padding: 8px 21px;
+    margin-left: 25px;
+}
+
+.featured__text2 button:hover {
+    background-color: rgba(29, 140, 116, 40)
+}
+
+.featured__text2 {
+    background-image: url(img/featured_green.jpg);
+    background-repeat: no-repeat;
+}
+
+
+/*SERVICES SECTION */
+
+.services__center h4 {
+    margin: 0;
+    padding-top: 80px;
+    font-family: SourceSansProLight;
+    color: #333b46;
+    font-size: 20px;
+    letter-spacing: 0.2em;
+    padding-bottom: 40px;
+    text-transform: uppercase;
+}
+
+.services__center p {
+    font-family: OpenSans;
+    color: #81868e;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    padding-bottom: 60px;
+}
+
+
+/* Tried through ::before,  but understood what it is useless
+.services__col1 h5::before {
+    height: 53px;
+    width: 53px;
+    content: url(img/services__col1-1.png);
+}
+
+.services__col1 h5:hover::before {
+    content: url(img/services__col1-2.png)
+} */
+
+.services__col2 h5 {
+    font-family: OpenSans;
+    text-transform: capitalize;
+    color: #464646;
+    font-size: 20px;
+    letter-spacing: 0.04em;
+    padding-bottom: 40px;
+}
+
+
+/*
+.services__col1__img1,
+.services__col1__img2,
+.services__col1__img3,
+.services__col1__img4 {
+    margin-left: 80px;
+}
+*/
+
+.services__col1__img1 {
+    background-image: url(img/services__col1-1.png);
+    background-repeat: no-repeat;
+    display: block;
+    width: 53px;
+    height: 53px;
+    margin-right: 0;
+    margin-bottom: 17px;
+}
+
+.services__col1__img2 {
+    background-image: url(img/services__col1-2.png);
+    background-repeat: no-repeat;
+    display: block;
+    width: 53px;
+    height: 53px;
+    margin-right: 0;
+    margin-bottom: 17px;
+}
+
+.services__col1__img3 {
+    background-image: url(img/services__col1-3.png);
+    background-repeat: no-repeat;
+    display: block;
+    width: 53px;
+    height: 53px;
+    margin-right: 0;
+    margin-bottom: 17px;
+}
+
+.services__col1__img4 {
+    background-image: url(img/services__col1-4.png);
+    background-repeat: no-repeat;
+    display: block;
+    width: 53px;
+    height: 53px;
+    margin-right: 0;
+}
+
+.services__col1__img1:hover {
+    background-position: 0 -53px;
+}
+
+.services__col1__img2:hover {
+    background-position: 0 -53px;
+}
+
+.services__col1__img3:hover {
+    background-position: 0 -53px;
+}
+
+.services__col1__img4:hover {
+    background-position: 0 -53px;
+}
+
+.services__col2__p1 {
+    padding: 0;
+    font-family: OpenSans;
+    color: #81868e;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    padding-bottom: 40px;
+}
+
+.services__col2__p2 {
+    padding: 0;
+    font-family: OpenSans;
+    color: #81868e;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+}
+
+.services__col3 p {
+    font-family: OpenSans;
+    color: #047378;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    padding-top: 25px;
+}
+
+.services__col3__img1 {
+    margin-left: 47px;
+    width: 122px;
+    height: 122px;
+}
+
+.services__col3__img2,
+.services__col3__img3 {
+    margin-left: 40px;
+    width: 122px;
+    height: 122px;
+}
+
+.services__col3 figcaption {
+    font-family: OpenSans;
+    color: #047378;
+    font-size: 16px;
+    padding-top: 14px;
+}
+
+.services__figcaption1 {
+    margin-left: 70px;
+}
+
+.services__figcaption2 {
+    margin-left: 55px;
+}
+
+.services__figcaption3 {
+    margin-left: 80px;
+}
+
+
+/*IMPRESSED SECTION */
+
+.impressed h4 {
+    font-family: SourceSansProLight;
+    color: #f3f3f3;
+    font-size: 20px;
+    letter-spacing: 0.2em;
+    padding-top: 80px;
+    text-transform: uppercase;
+    padding-left: 85px;
+}
+
+.impressed__p1 {
+    font-family: OpenSans;
+    color: #b2b3b3;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    padding-bottom: 30px;
+    padding-left: 85px;
+}
+
+.impressed__p2 {
+    font-family: OpenSans;
+    font-size: 14px;
+    color: #b2b3b3;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    padding-bottom: 100px;
+    padding-left: 85px;
+}
+
+.impressed {
+    background-image: url(img/impressed__bg.jpg);
+    background-repeat: no-repeat;
+}
