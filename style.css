@@ -559,7 +559,7 @@ WILL DO LATER */
 WILL DO LATER THAT */
 
 
-/*PRICES SECTION */
+/* PRICES SECTION */
 
 .prices__text h4 {
     font-family: SourceSansProLight;
@@ -577,4 +577,92 @@ WILL DO LATER THAT */
     font-size: 14px;
     letter-spacing: 0.05em;
     padding-bottom: 60px;
+    margin-bottom: 0;
+}
+
+
+/* Cards in PRICES SECTION */
+
+.card {
+    padding: 0;
+    width: 232px;
+    height: 300px;
+    position: absolute;
+    left: 66px;
+}
+
+.card-middle {
+    height: 265px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+.card-middle-a {
+    height: 64px;
+    width: 232px;
+    background-color: #19bd9a;
+}
+
+.card-body {
+    padding: 0 !important;
+}
+
+
+/*Side cards*/
+
+.card h5 {
+    margin: 0;
+    padding: 25px 0 25px 0;
+    background-color: #19bd9a;
+    font-family: OpenSans;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0.04em;
+}
+
+.card-text {
+    padding-top: 60px;
+    font-family: OpenSans;
+    color: #81868e;
+    font-size: 20px;
+    letter-spacing: 0.05em;
+    margin-bottom: 0;
+}
+
+.card-text-span {
+    font-family: SourceSansProBlack;
+    font-size: 42.27px;
+    color: #1fbba6;
+}
+
+
+/*Middle card (Maybe need to edit <a> to <button>, 
+but will do it later*/
+
+.card-middle p {
+    font-size: 14px;
+    text-align: start !important;
+    line-height: 35px;
+    padding: 25px 0 0 30px;
+}
+
+.card-middle-a a {
+    font-family: OpenSans;
+    color: #ffffff;
+    font-size: 16px;
+    text-decoration: none;
+    padding-top: 25px;
+    position: relative;
+    top: 20px;
+    text-transform: capitalize;
+}
+
+.card-middle-a a:hover {
+    text-decoration: none;
+    color: #f3f3f3bb;
+}
+
+.card-middle-a:hover {
+    color: #f3f3f3bb;
 }
