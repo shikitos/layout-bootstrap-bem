@@ -637,7 +637,8 @@ WILL DO LATER THAT */
 }
 
 
-/*Middle card (Maybe need to edit <a> to <button>, 
+/*Middle card (Maybe need to edit <a> to <button> — 
+:hover for bg, 
 but will do it later*/
 
 .card-middle p {
@@ -665,4 +666,92 @@ but will do it later*/
 
 .card-middle-a:hover {
     color: #f3f3f3bb;
+}
+
+.prices__cards {
+    margin-bottom: 100px;
+}
+
+
+/*SUBSCRIBE SECTION */
+
+.subscribe {
+    background-image: url(img/subscribe__bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.subscribe h3 {
+    text-transform: uppercase;
+    padding: 80px 0 44px 0;
+    font-family: SourceSansProLight;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0.2em;
+}
+
+.subscribe p {
+    padding-bottom: 60px;
+    font-family: OpenSans;
+    color: #81868e;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+}
+
+.subscribe input {
+    width: 358px;
+    height: 41px;
+    margin-right: 10px;
+    background-color: transparent;
+    border: 1px solid #81868e;
+    padding-left: 20px;
+    color: #cfd3d4;
+    margin-bottom: 100px;
+}
+
+.subscribe input:focus {
+    outline: none;
+}
+
+.subscribe button {
+    background-color: #19bd9a;
+    border: none;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffffff;
+    height: 41px;
+    width: 151px;
+    font-size: 14px;
+    font-family: OpenSans;
+    letter-spacing: 0.01em;
+    position: relative;
+    top: -1px;
+}
+
+.subscribe button:hover {
+    background-color: #17745f;
+}
+
+
+/* CONTACT-DATA SECTION */
+
+.contact-data {
+    background-color: #f3f3f3;
+}
+
+.contact-data h3 {
+    text-transform: uppercase;
+    font-family: SourceSansProLight;
+    color: #333b46;
+    font-size: 20px;
+    letter-spacing: 0.2em;
+    margin: 80px 0 40px 0;
+}
+
+.contact-data p {
+    font-family: OpenSans;
+    color: #81868e;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    margin-bottom: 60px;
 }
