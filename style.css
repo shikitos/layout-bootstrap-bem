@@ -735,7 +735,7 @@ but will do it later*/
 
 /* CONTACT-DATA SECTION */
 
-.contact-data {
+#contact-data {
     background-color: #f3f3f3;
 }
 
@@ -754,4 +754,43 @@ but will do it later*/
     font-size: 14px;
     letter-spacing: 0.05em;
     margin-bottom: 60px;
+}
+
+
+/* Cards */
+
+.contact-data__cards {
+    width: 987px;
+}
+
+
+/* Problems with cards body 
+Need to correct the size of the bodies
+because they are wrong
+and cards behave incorrectly */
+
+.contact-data__card-body {
+    position: relative;
+    left: 85px;
+    background-color: #fff;
+    width: 287px;
+    height: 292px;
+    margin-bottom: 100px;
+}
+
+.contact-data__cards h5 {
+    font-family: OpenSans;
+    color: #464646;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    padding: 30px 0 25px 0;
+}
+
+.contact-data__cards p {
+    font-family: OpenSans;
+    color: #81868e;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
 }
