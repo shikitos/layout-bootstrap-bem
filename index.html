@@ -19,13 +19,14 @@
                     <img src="img/LOGO.png" alt="Logotype">
                 </div>
                 <div class="col-md-6 d-flex header__nav">
-                    <p><a href="#">Hello</a></p>
-                    <p><a href="#">About</a></p>
-                    <p><a href="#">Services</a></p>
-                    <p><a href="#">Portfolio</a></p>
-                    <p><a href="#">Team</a></p>
-                    <p><a href="#">Blog</a></p>
-                    <p><a href="#">Contact</a></p>
+                    <!--Maybe need to change to <li>?-->
+                    <p><a href="#readmore">Hello</a></p>
+                    <p><a href="#details">About</a></p>
+                    <p><a href="#services">Services</a></p>
+                    <p><a href="#portfolio">Portfolio</a></p>
+                    <p><a href="#team">Team</a></p>
+                    <p><a href="#news">Blog</a></p>
+                    <p><a href="#contact-data">Contact</a></p>
                 </div>
             </div>
             <div class="row">
@@ -175,7 +176,7 @@
         </div>
     </section>
     -->
-    <section class="team">
+    <section id="team" class="team">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center team__heading">
@@ -265,10 +266,10 @@
                     <div class="card card-middle">
                         <div class="card-body">
                             <p class="card-text">Full Branding <br> Project Management <br> Unlimited Revisions <br> 24/7 h Service <br> Free Domain <br> Free Hosting</p>
-                            <div class="card-middle-a">
-                                <a href="#" target="_blank">
-                                        Let's start &gt;	
-                                </a>
+                            <div class="card-middle-btn">
+                                <button>
+                                    Let's start &gt;
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -294,10 +295,12 @@
                     <p>
                         At vero eos et accusamus et iusto odio dignissimos ducimus qui <br> blanditiis praesentium
                     </p>
-                    <input type="email" name="" id="" placeholder="Email Address">
-                    <button type="submit">
-                        submit
-                    </button>
+                    <form action="URL">
+                        <input type="email" name="" id="" placeholder="Email Address">
+                        <button type="submit">
+                            submit
+                        </button>
+                    </form>
                 </div>
             </div>
         </div>
@@ -349,6 +352,62 @@
             </div>
         </div>
     </section>
+
+    <section id="submit" class="submit">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <form action="URL">
+                        <input type="text" placeholder="Your Name" class="submit__inputup">
+                        <input type="email" placeholder="Email Address" class="submit__inputup">
+                        <input type="text" placeholder="Subject" class="submit__inputup">
+                        <br>
+                        <textarea name="text" id="" cols="30" rows="10"></textarea>
+                        <br>
+                        <button type="submit ">
+                            Submit now
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="map" class="map">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 d-flex">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3680.917633325988!2d90.359466314276!3d22.694109934220243!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjLCsDQxJzM4LjgiTiA5MMKwMjEnNDIuMCJF!5e0!3m2!1sen!2sru!4v1586689329302!5m2!1sen!2sru"
+                        width="100%" height="500" frameborder="0" style="border:0; padding: 0 !important;" allowfullscreen=" " aria-hidden="false " tabindex="0 "></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <img src="img/footer_logo.png" alt="Logotype">
+                    <p>
+                        Copyright 2020. All rights Reserved.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 footer__icons text-center">
+                    <!--I don't have a pro account of FontAwesome,
+                    therefore, I am create this icons
+                    just by .png files from layout-->
+                    <a href="https://www.facebook.com/" target="_blank"><img src="img/footer_facebook.png" alt=""></a>
+                    <a href="https://www.twitter.com/" target="_blank"><img src="img/footer_twitter.png" alt=""></a>
+                    <a href="https://www.linkedin.com/" target="_blank"><img src="img/footer_linkedin.png" alt=""></a>
+                    <a href="https://www.instagram.com/" target="_blank"><img src="img/footer_instagram.png" alt=""></a>
+                    <a href="https://www.vimeo.com/" target="_blank"><img src="img/footer_vimeo.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
