@@ -39,7 +39,7 @@
 /*MAIN HEADER*/
 
 header {
-    background-image: url(img/background_header.png);
+    background-image: url(img/background_header.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -567,6 +567,10 @@ BUT I SKIPPED THIS (GONNA DO LATER) */
     padding: 10px 25px 10px 25px;
     color: #ffffff;
     margin-bottom: 55px;
+}
+
+.portfolio__footer button:hover {
+    background-color: rgba(29, 140, 116, 40)
 }
 
 
