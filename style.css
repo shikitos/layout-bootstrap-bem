@@ -86,6 +86,11 @@ header {
     letter-spacing: 0.05em;
 }
 
+.header__text a {
+    position: absolute;
+    top: 350px;
+}
+
 
 /*READMORE SECTION */
 
@@ -516,6 +521,15 @@ BUT I SKIPPED THIS (GONNA DO LATER) */
     letter-spacing: 0.05em;
 }
 
+.portfolio__categories li {
+    padding: 0;
+    margin: 0 30px 60px 30px;
+    font-family: OpenSans;
+    color: #464646;
+    font-size: 16px;
+    display: inline-block;
+}
+
 .portfolio__col1__img,
 .portfolio__col2__img,
 .portfolio__col3__img,
@@ -529,6 +543,7 @@ BUT I SKIPPED THIS (GONNA DO LATER) */
 .portfolio__col3__img img,
 .portfolio__col4__img img {
     margin: 5px 0 5px 0;
+    transition: .5s
 }
 
 .portfolio__col1__img img:hover,

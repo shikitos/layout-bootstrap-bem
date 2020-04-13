@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="script.js">
+    <link rel="stylesheet" type="text/javascript" href="script.js">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <title>BOUNCY</title>
@@ -33,11 +33,13 @@
                 <div class="col-md-12 text-center header__text">
                     <h1>WE ARE CODE CAFE</h1>
                     <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis <br> praesentium voluptatum</p>
-                    <a href="#"></a>
+                    <a href="#contact-data" class="scroll_down" id="scroll_down"><img src="img/header__down.png" alt="Scroll Down"></a>
                 </div>
+                <!--Need to add scroll down in JS. I gonna do it at future (when will learn js)-->
             </div>
         </div>
     </header>
+
     <section id="readmore">
         <div class="container">
             <div class="row">
@@ -166,7 +168,8 @@
         </div>
     </section>
     <!-- Here will be carousel (with jQuery), 
-        but now I gonna skip this section -->
+        but now I gonna skip this section 
+        cuz I have to learn JS at least-->
     <section id="portfolio" class="portfolio">
         <div class="container">
             <div class="row">
@@ -176,12 +179,20 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-12 text-center buttons">
-
+                <div class="col-md-12 list-inline portfolio__categories text-center">
+                    <ul>
+                        <li class="selected">All Works</li>
+                        <li>Print</li>
+                        <li>Identity</li>
+                        <li>Branding</li>
+                        <li>Web</li>
+                        <li>HTML</li>
+                        <li>Wordpress</li>
+                    </ul>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-3 text-center  portfolio__col1__img">
+            <div class="row portfolio__imgs">
+                <div class="col-md-3 text-center portfolio__col1__img">
                     <img src="img/portfolio-col1-1.jpg" alt="Portfolio">
                     <img src="img/portfolio-col1-2.jpg" alt="Portfolio">
                     <img src="img/portfolio-col1-3.jpg" alt="Portfolio" class="portfolio__lastimg">
@@ -227,8 +238,8 @@
                     </p>
                 </div>
             </div>
-            <!-- 
-            <div class="row">
+            <!-- JS and Frameworks... again...-->
+            <!--<div class="row">
                /* Carousel with team members */
                 <div class="col-md-12">
                     <div class="slideshow-container">
@@ -254,7 +265,7 @@
             </div>
         </div>
     </section>
-    <!--
+    <!-- And JS AGAIN
     <section id="testimonials" class="testimonials">
         <div class="container">
             <div class="row">
@@ -437,7 +448,7 @@
                 <div class="col-md-12 footer__icons text-center">
                     <!--I don't have a pro account of FontAwesome,
                     therefore, I am create this icons
-                    just by .png files from layout-->
+                    just by a .png files from layout-->
                     <a href="https://www.facebook.com/" target="_blank"><img src="img/footer_facebook.png" alt=""></a>
                     <a href="https://www.twitter.com/" target="_blank"><img src="img/footer_twitter.png" alt=""></a>
                     <a href="https://www.linkedin.com/" target="_blank"><img src="img/footer_linkedin.png" alt=""></a>
